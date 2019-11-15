@@ -1,0 +1,33 @@
+.main-card {
+    width: 250px;
+    padding: 10px;
+    margin: 20px 10px 0 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.main-card img {
+    width: 100%;
+    height: 300px;
+}
+
+.fill-body, .footer-btn {
+    padding-left: 10px;
+}
+
+.footer-btn {
+    padding-bottom: 10px;
+}
+
+.btn-read {
+    background: #86C232;
+    border: none;
+    padding: 5px;
+    width: 50%;
+    border-radius: 4px;
+    color: white;
+
+}
+
+.btn-read:hover {
+    background: #61892F;
+}

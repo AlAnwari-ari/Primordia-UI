@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-container {
+    /* padding: 5px; */
+    background: #222629;
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    /* font-weight: bold; */
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.nav .ul {
+    list-style-type: none;
+    display: flex;
+    /* margin-top: 15px; */
+
+}
+
+.nav .li {
+    margin-right: 30px;
+}
+
+.reg {
+    margin: 0 20px;
+}
+
+.login {
+    margin-right: 0
+}
+
+.li:hover {
+    cursor: pointer;
+}
+
+.logo {
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+
+.list-menu {
+    margin-top: 25px;
+}
+

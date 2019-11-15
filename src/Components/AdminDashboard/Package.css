@@ -1,0 +1,94 @@
+.paket-container {
+    width: 100%;
+    margin: 0;
+}
+
+.paket-container * {
+    box-sizing: border-box;
+}
+
+.paket-container table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.paket-container table, .paket-container th, .paket-container td {
+    border: 1px solid lightgray;
+} 
+.paket-container th, .paket-container td {
+    padding: 10px;
+}
+
+.paket-container th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.paket-container tfoot td {
+    text-align: center;
+}
+
+.paket-container input {
+    width: 100%;
+}
+
+.paket-container tfoot td input[type="button"] {
+    padding: 5px;
+    width: 70%;
+    border-radius: 4px;
+    border: none;
+    background: #86C232;
+    color: white;
+
+}
+.paket-container tfoot td input[type="button"]:hover {
+    background: #61892F;
+}
+
+.tabel-paket td img {
+    width: 200px;
+    height: 150px;
+    display: absolute;
+    
+}
+
+.paket-container tbody tr td, .paket-container tfoot tr td {
+    text-align: center;
+}
+
+.tabel-paket tbody tr td input[value="EDIT"] {
+    width: 60px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 5px;
+    background: #0275d8;
+}
+.tabel-paket tbody tr td input[value="EDIT"]:hover {
+    background: #005eb1;
+}
+
+.tabel-paket tbody tr td input[value="DELETE"], .tabel-paket tbody tr td input[value="CANCEL"] {
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 5px;
+    background: #F32013;
+}
+
+.tabel-paket tbody tr td input[value="DELETE"]:hover, .tabel-paket tbody tr td input[value="CANCEL"]:hover {
+    background: #CA0B00;
+}
+
+.tabel-paket tbody tr td input[value="SAVE"] {
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 5px;
+    background: #86C232;
+}
+.tabel-paket tbody tr td input[value="SAVE"]:hover {
+    background: #61892F;
+}

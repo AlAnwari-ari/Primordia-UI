@@ -1,0 +1,47 @@
+.main-admin {
+    display: flex;
+
+}
+
+.side-nav nav, .side-nav ul, .side-nav li {
+    box-sizing: border-box;
+}
+
+.side-nav {
+    width: 200px;
+    height: 100vh;
+    background: #222629;
+
+}
+
+.side-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-nav ul li {
+    color: white;
+    padding: 20px;
+}
+
+.side-nav ul li:hover {
+    cursor: pointer;
+}
+
+.active-admin {
+    background: #191c1f;
+    border-left: 5px solid #86C232;
+
+}
+
+.admin-content * {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.admin-content {
+    /* border: 1px solid black; */
+    width: 100%;
+}
+

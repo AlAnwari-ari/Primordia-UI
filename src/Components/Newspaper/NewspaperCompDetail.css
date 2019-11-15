@@ -1,0 +1,173 @@
+.publisherdetail-container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 300vh;
+    display: grid;
+    grid-template-columns: 8% auto 30% 8%;
+    grid-template-rows: 2% 31% auto 5%;
+    
+}
+
+.logo-week {
+    /* border: 1px solid black; */
+    grid-column: 2/3;
+    grid-row: 2/3;
+    overflow: hidden;
+
+}
+
+.news-today {
+    /* border: 1px solid black; */
+    grid-column: 3/4;
+    grid-row: 2/3;
+    text-align: center;
+
+}
+
+.filtered-news {
+    /* border: 1px solid black; */
+    grid-column: 2/4;
+    grid-row: 3/4;
+    padding: 5px;
+
+}
+
+.logo-week img:nth-child(1) {
+    width: 90%;
+    height: 90px;
+}
+
+.one-week {
+    width: 100%;
+    /* border: 1px solid black; */
+    overflow: auto;
+
+}
+
+.one-week .weekcard-board {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+
+}
+
+.news-today img {
+    width: 80%;
+    height: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 5px;
+}
+
+.logo-week p, .logo-week h5 {
+    padding-left: 10px;
+}
+
+.logo-week p {
+    line-height: 100%;
+    margin-top: 10px;
+}
+
+.logo-week h5 {
+    /* border: 1px solid black; */
+    background: lightgray;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.news-today h5 {
+    background: lightgray;
+    text-align: center;
+    padding: 5px 0;
+
+}
+
+/* card style */
+
+.card-comp {
+    width: 200px;
+    height: fit-content;
+    margin: 10px 10px;
+    border: 1px solid gray;
+}
+
+.card-comp:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.one-week .card-comp p, .filtered-news .card-comp p {
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.one-week .weekcard-board .card-comp img, .filtered-news .filtered-data .card-comp img {
+    width: 100%;
+    height: 300px;
+    
+}
+
+.footer-comp {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.one-week .weekcard-board .footer-comp ul, .filtered-news .filtered-data .footer-comp ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    
+}
+
+/* ============================= */
+
+.search-newscomp {
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+    display: flex;
+    background: lightgray;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 10px;
+
+}
+
+.filtered-news .search-newscomp input[type="date"] {
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+
+}
+
+.filtered-news .search-newscomp input[value="SEARCH"] {
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    background: #86C232;
+    color: white;
+    margin-left: 10px;
+
+}
+
+.filtered-news .search-newscomp input[value="SEARCH"]:hover {
+    background: #61892F;
+
+}
+
+.filtered-news .search-newscomp h6 {
+    /* border: 1px solid black; */
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.filtered-data {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

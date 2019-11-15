@@ -1,0 +1,159 @@
+.publisher-container {
+    width: 100%;
+    margin: 0;
+}
+
+.publisher-container table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+
+}
+
+.publisher-container table, .publisher-container th, .publisher-container td {
+    border: 1px solid lightgray;
+} 
+.publisher-container th, .publisher-container td {
+    padding: 10px;
+}
+
+.publisher-container th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.publisher-container tfoot td {
+    text-align: center;
+}
+
+.publisher-container tfoot td input[type="button"] {
+    padding: 5px;
+    width: 70%;
+    border-radius: 4px;
+    border: none;
+    background: #86C232;
+    color: white;
+}
+
+.publisher-container tfoot td input[type="button"]:hover {
+    background: #61892F;
+}
+
+.publisher-container table tfoot tr td:nth-child(1) {
+    width: 10%;
+}
+.publisher-container table tfoot tr td:nth-child(2) {
+    width: 40%;
+}
+.publisher-container tfoot tr td input[type="file"] {
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.publisher-container tfoot tr td img {
+    padding: 0;
+    margin: 0;
+    width: 70%;
+    height: 50px;
+}
+
+.publisher-container tbody tr td {
+    text-align: center;
+}
+
+.publisher-container tbody tr td input[value="DELETE"], .publisher-container tbody tr td input[value="CANCEL"] {
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 5px;
+    background: #F32013;
+}
+.publisher-container tbody tr td input[value="DELETE"]:hover, .publisher-container tbody tr td input[value="CANCEL"]:hover {
+    background: #CA0B00;
+}
+
+.publisher-container tbody tr td input[value="EDIT"] {
+    width: 60px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 5px;
+    background: #0275d8;
+}
+.publisher-container tbody tr td input[value="EDIT"]:hover {
+    background: #005eb1;
+}
+
+.publisher-container tbody tr td input[value="SAVE"] {
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 5px;
+    background: #86C232;
+}
+.publisher-container tbody tr td input[value="SAVE"]:hover {
+    background: #61892F;
+}
+
+.publisher-container tbody tr td img {
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    height: 50px;
+}
+
+.publisher-container table tfoot ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.number-pagination ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 0;
+}
+
+.active-pagination {
+    background: #0275d8;
+    color: white
+}
+.number-pagination {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+    height: fit-content;
+}
+
+.number-pagination span {
+    margin-top: 3px;
+    /* border: 1px solid black; */
+    height: fit-content;
+    padding: 0;
+    margin-top: 4px;
+}
+
+.visibility-pagination {
+    visibility: hidden;
+}
+
+.number-pagination ul li {
+    /* border: 1px solid black; */
+    border-radius: 4px;
+    /* color: #0275d8; */
+    padding: 4px 10px;
+    margin: 0 5px;
+}
+
+
+.number-pagination ul li:hover, .number-pagination span:hover {
+    cursor: pointer;
+    color:#0275d8;
+}
